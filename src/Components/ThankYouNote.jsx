@@ -44,7 +44,6 @@ const ThankYouNote = ({ darkmode }) => {
 
   const imgSize = isDesktop ? 100 : isMobile ? 36 : 90;
   
-  // Mapping indices to named variables for clarity
   const [ , date, username, fullName, , profileUrl, avatarUrl, prCount, repoList] = thankYou;
   const repos = repoList?.split(/\s+/) || [];
 
