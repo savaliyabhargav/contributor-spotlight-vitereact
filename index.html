@@ -1,13 +1,42 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" href="/jenkins.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>contributor-spotlight</title>
+    <title>Jenkins Contributor Spotlight</title>
+
+    <!-- Jenkins web components -->
+    <script
+      type="module"
+      src="https://unpkg.com/@jenkinsci/jenkins-io-components?module"
+    ></script>
+    <script
+      src="https://unpkg.com/@webcomponents/webcomponentsjs@2.6.0/webcomponents-loader.js"
+    ></script>
+    <script
+      src="https://unpkg.com/lit@2.4.0/polyfill-support.js"
+    ></script>
+    <script
+      data="ionicons"
+      src="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.5.2/ionicons/ionicons.esm.js"
+      type="module"
+    ></script>
+    <script
+      data="ionicons"
+      nomodule
+      src="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.5.2/ionicons/ionicons.js"
+    ></script>
   </head>
   <body>
+    <!-- Jenkins navbar -->
+    <jio-navbar property="https://contributors.jenkins.io"></jio-navbar>
+
     <div id="root"></div>
+
+    <!-- Jenkins footer -->
+    <jio-footer property="https://contributors.jenkins.io"></jio-footer>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

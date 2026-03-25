@@ -1,0 +1,28 @@
+html {
+    font-size: 112.5%;
+    line-height: 1.45;
+}
+
+body {
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    line-height: 1.2;
+}
+
+p, blockquote {
+    margin-bottom: 0.75rem;
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 106.25%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 100%;
+    }
+}
