@@ -81,21 +81,6 @@ Then open http://localhost:8080 in your browser.
 - Uses a multi-stage build — Node.js to build, nginx to serve
 - nginx handles React Router client-side routing correctly
 
----
-
-## CI/CD
-
-This project uses GitHub Actions for continuous integration.
-
-The pipeline runs automatically on every push and pull request to `main` and does the following:
-
-1. **Build job** — installs dependencies and runs `npm run build` to verify nothing is broken
-2. **Docker job** — builds the Docker image to verify the container works correctly
-
-The pipeline is intentionally minimal to demonstrate CI/CD concepts without over-engineering.
-
----
-
 ## Project structure
 ```
 .
