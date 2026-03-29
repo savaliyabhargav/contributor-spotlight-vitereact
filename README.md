@@ -1,6 +1,6 @@
 # Jenkins Contributor Spotlight — Gatsby to Vite Migration
 
-![CI](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/actions/workflows/ci.yml/badge.svg)
+
 
 This project migrates the Jenkins Contributor Spotlight site from Gatsby to Vite + React.
 
